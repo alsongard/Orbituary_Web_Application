@@ -37,7 +37,8 @@ This  web application  allows users to post obituaries of their loved ones,  to 
 3. Login to the admin dashboard 
 ``http://address:port/admin``
 
-There are 3 views namely:
+There are 3 views namely:ls
+
 1. Home view : /
 2. userview/ : for displaying deceased details
 3. usercreate/  : for entering deceased details

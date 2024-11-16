@@ -1,3 +1,8 @@
 bin/
 lib/ 
 /pyvenv.cfg
+
+
+/db.sqlite3
+/OrbituaryWebApp/__pycache__
+/OrbituaryWebApp/settings.py
