@@ -6,3 +6,13 @@ lib/
 /db.sqlite3
 /OrbituaryWebApp/__pycache__
 /OrbituaryWebApp/settings.py
+
+
+Pages/__pycache__
+
+*.pyc
+__pycache__/
+static/
+media/
+
+/user_setup.txt
