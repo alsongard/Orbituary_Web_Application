@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Legacy</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:2.5px 50px 2.5px 20px;
+            height: 100px;
+            background:linear-gradient(to right, darkgrey, rgba(196, 195, 195, 0.445)) ;
+        }
+        .navbar{
+            display: flex;
+            list-style-type: none;
+            justify-content: space-between;
+            gap:40px;
+        }
+        .navbar li a{
+            text-decoration: none;
+            color: black;
+            transition: ease-out 1s;
+            padding:2.5px 5px;
+            border:none;
+            border-radius: 3px;;
+        }
+        .navbar li a:hover{
+            background-color: black;
+            color:white;
+        }
+        .navbar li a:hover{
+            color: white;
+        }
+        .home{
+            width:100vw;
+            height: 80vh;
+        }
+        footer{
+            padding:80px 0;
+            background-color: rgba(196, 195, 195, 0.815);
+            text-align: center;
+        }
+        .titles{
+            font-size: 2.5rem;
+            margin: 20px 0;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .home-text{
+            width:90%;
+            margin: 20px auto;
+        }
+        .testimony-text{
+            width:90%;
+            margin: 50px auto 0;
+            text-align: center;
+        }
+        .testimony-container{
+            width:90%;
+            margin: 20px auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .testimony{
+            width: 45%;
+            padding: 20px;
+            background-color: rgba(196, 195, 195, 0.815);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Legacy</h2>
+
+        <ul class="navbar">
+            <li><a href="#"> Home  </a></li>
+            <li><a href="#"> About  </a></li>
+            <li><a href="#"> Services  </a></li>
+            <li><a href="#"> Contact  </a></li>
+        </ul>
+
+
+    </header>    
+
+    {% block content %}
+        Used to add content
+    {% endblock %}
+
+    <footer>
+        <p>&copy; 2021 Our Legacy</p>
+    </footer>
+</body>
+</html>
