@@ -16,24 +16,25 @@ This  web application  allows users to post obituaries of their loved ones,  to 
 1. Clone the repository  
 ``git clone link`` 
 
-2. Setup Virtualenvironment  
-``virtualenv -p python3 directoryName``
+2. Setup Virtualenvironment   
+``virtualenv -p python3 directoryName``  
 
-3. Install the required dependencies  
-``pip install -r requirements.txt``
+3. Install the required dependencies    
+``pip install -r requirements.txt``  
 
-4. To run the application, enter the root folder(directory at which your manage.py file is locatedand run the following command)  
-``python manage.py runserver``
+4. To run the application, enter the root folder(directory at which your manage.py file is locatedand run the following command)    
+``python manage.py runserver``  
 
 
 
 ## Usage
-1. Migration
+1. Migration  
 ``python manage.py migrate``
 
-Create a super user account
-``python manage.py createsuperuser``
-Login to the admin dashboard
+2. Create a super user account  
+``python manage.py createsuperuser``  
+
+3. Login to the admin dashboard 
 ``http://address:port/admin``
 
 There are 3 views namely:
