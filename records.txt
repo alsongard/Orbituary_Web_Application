@@ -2,3 +2,6 @@ Albert Einstein
 born : 1th March 1879
 deid: 18 Apric 1955
 
+username: Isaac Newton
+Born : 4 January 1643
+Died: 31 March 172
