@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <section style="height:70vh;">
+        <div class="recordView">
+            <h2>Testimony</h2>
+            <p>First Name: <span>{{object.first_name}}</span></p>
+            <p>Middle Name: <span>{{object.middle_name}}</span></p>
+            <p>Last Name: <span>{{object.last_name}}</span></p>
+            <p>Date of Birth: <span>{{object.date_of_birth}}</span></p>
+            <p>Date of Death: <span>{{object.date_of_death}}</span></p>
+            <p>Eulogy: <span>{{object.content}}</span></p>
+            <p>author: <span>{{object.author}}</span></p>
+            <p>Date of Created: <span>{{object.created_at}}</span></p>
+            <p>Date of Updae: <span>{{object.updated_at}}</span></p>
+    </section>
+    </div>
+
+{% endblock %}
